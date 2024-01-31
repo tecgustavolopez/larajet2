@@ -6,6 +6,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+<p>
+
+Solventaado el problema con @vite de forma manual utilizando estas lineas para reemplazar en 
+[proyecto](resources/views/layouts/app.blade.php) y [proyecto](resources/views/layouts/guest.blade.php)
+
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+<script src="{{ asset('js/app.js') }}" defer></script>
+
+</p>
+
 
 ## About Laravel
 
